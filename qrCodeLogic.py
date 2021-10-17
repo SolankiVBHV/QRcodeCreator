@@ -6,7 +6,7 @@ import qrcode
 
 def generate_QR_Code(inData):
     #background image path and settings 
-    logo_link = "Picture1.jpg"
+    logo_link = "BackLogo.jpg"
     logo = Image.open(logo_link)
     basewidth = 100
 
