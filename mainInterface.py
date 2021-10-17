@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter.constants import HORIZONTAL
 from tkinter.messagebox import showinfo
 from glob import glob
-from main import generate_QR_Code
+from qrCodeLogic import generate_QR_Code
 from os import path, remove
 from PIL import Image, ImageTk
 
